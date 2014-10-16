@@ -1,0 +1,53 @@
+{
+  "name": "jscs-stylish",
+  "description": "Stylish reporter for JSCS",
+  "version": "0.1.0",
+  "homepage": "https://github.com/SimonDegraeve/jscs-stylish",
+  "author": {
+    "name": "Simon Degraeve",
+    "email": "simon.degraeve@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SimonDegraeve/jscs-stylish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SimonDegraeve/jscs-stylish/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/SimonDegraeve/jscs-stylish/blob/master/LICENSE"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.28",
+    "npm": ">=1.4.9"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js",
+    "stylish.js"
+  ],
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "log-symbols": "^1.0.1",
+    "string-length": "^1.0.0",
+    "text-table": "^0.2.0"
+  },
+  "devDependencies": {
+    "jscs": "^1.7.1",
+    "mocha": "^1.21.5"
+  },
+  "keywords": [
+    "jscs",
+    "reporter",
+    "lint",
+    "validate",
+    "stylish",
+    "elegant"
+  ]
+}
