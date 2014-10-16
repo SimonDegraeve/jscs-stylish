@@ -11,7 +11,7 @@ $ jscs --reporter node_modules/jscs-stylish/stylish.js file.js
 
 ## Contributing
 
-Please submit all issues and pull requests to the [SimonDegraeve/jscs-stylish](http://github.com/SimonDegraeve/jscs-stylish) repository!
+Please submit all issues and pull requests to the [SimonDegraeve/jscs-stylish](http://github.com/SimonDegraeve/jscs-stylish) repository.
 
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/SimonDegraeve/jscs-stylish/issues).
