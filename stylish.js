@@ -19,7 +19,7 @@ module.exports = function(errorCollection) {
   var errorCount = 0,
       report = [];
 
-  report = errorCollection.map(function(errors, i) {
+  report = errorCollection.map(function(errors) {
     if (!errors.isEmpty()) {
       errorCount += errors.getErrorCount();
 
