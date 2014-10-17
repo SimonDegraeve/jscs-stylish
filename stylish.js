@@ -38,15 +38,15 @@ module.exports = function(errorCollection) {
           {
             stringLength: stringLength
           }
-        )
+        ),
+        '',
+        '  ' + logSymbols.error + '  ' + errorCount + pluralize(' error', errorCount)
       ].join('\n');
     }
     return '';
-  }).join('\n') + '\n\n';
+  }).join('\n');
 
-  if (errorCount > 0) {
-    report += '  ' + logSymbols.error + '  ' + errorCount + pluralize(' error', errorCount);
-  } else {
+  if (errorCount === 0) {
     report += '  ' + logSymbols.success + ' No problems';
     report = '\n' + report.trim();
   }
